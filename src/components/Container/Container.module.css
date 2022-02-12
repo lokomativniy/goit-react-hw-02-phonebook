@@ -6,3 +6,6 @@
   padding-top: 15px;
   line-height: 1.5;
 }
+.container:not(:last-child) {
+  margin-top: 20px;
+}
