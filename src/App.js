@@ -56,10 +56,10 @@ class App extends Component {
     const filteredContacts = this.getFilterContacts();
     return (
       <Container>
-        <Section title="PHONEBOOK">
+        <Section title="Phonebook">
           <ContactForm onSubmit={this.addContact} />
         </Section>
-        <Section title="CONTACT">
+        <Section title="Contacts">
           <Filter value={filter} onChange={this.changeFilter}></Filter>
           <ListContact
             deleteContact={this.deleteContact}
